@@ -1,9 +1,8 @@
-<% var data = {
-  title: "Заголовок | Проект",
-  author: "Harrix"
-}; %>
-<%= _.template(require('./../includes/header.html').default)(data) %>
+<% var data={ title: "Siren Group Test" , author: "Pavel Elfimov" }; %>
+  <%= _.template(require('./../includes/head.html').default)(data) %>
+    <%= _.template(require('./../includes/header.html').default)(data) %>
 
-<div class="container">Первая страница.</div>
 
-<%= _.template(require('./../includes/footer.html').default)(data) %>
+      <div class="container">Первая страница.</div>
+
+      <%= _.template(require('./../includes/footer.html').default)(data) %>

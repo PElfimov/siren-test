@@ -1,13 +1,12 @@
-$font-stack: -apple-system, BlinkMacSystemFont, Roboto, "Open Sans",
-  "Helvetica Neue", sans-serif;
+$font-stack: Montserrat, sans-serif, "Open Sans", "Helvetica Neue";
 
 @import "~bootstrap/scss/bootstrap-grid";
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/Roboto-Regular.ttf);
+  src: url(../fonts/Montserrat-Regular.ttf);
 }
 
 body {
