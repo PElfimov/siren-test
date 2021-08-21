@@ -1,7 +1,6 @@
-.mainHeader {
-  height: 96px;
-}
-
 .mainHeader__logo {
+  display: flex;
+  align-items: center;
   max-width: 168px;
+  height: 96px;
 }
