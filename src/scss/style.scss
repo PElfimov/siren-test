@@ -1,6 +1,8 @@
-@import "~bootstrap/scss/bootstrap-grid";
 @import "./global/variables";
+@import "~bootstrap/scss/bootstrap-grid";
 @import "./global/scaffolding";
 @import "./sections/mainHeader";
 @import "./sections/mainHero";
 @import "./components/advantageList";
+@import "./sections/mainArticles";
+@import "./components/article";
