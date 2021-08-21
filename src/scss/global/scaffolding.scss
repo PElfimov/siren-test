@@ -1,0 +1,23 @@
+$font-stack: Montserrat, sans-serif, "Open Sans", "Helvetica Neue";
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../../fonts/Montserrat-Bold.ttf);
+}
+
+body {
+  font-family: $font-stack;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

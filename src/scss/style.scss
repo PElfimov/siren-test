@@ -1,22 +1,2 @@
-$font-stack: Montserrat, sans-serif, "Open Sans", "Helvetica Neue";
-
 @import "~bootstrap/scss/bootstrap-grid";
-
-@font-face {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  src: url(../fonts/Montserrat-Regular.ttf);
-}
-
-body {
-  font-family: $font-stack;
-  #logo {
-    width: 10rem;
-  }
-  .container {
-    img {
-      width: 20rem;
-    }
-  }
-}
+@import "./global/scaffolding.scss";
