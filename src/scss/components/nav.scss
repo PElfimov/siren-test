@@ -1,0 +1,29 @@
+.nav__list {
+  margin: 0;
+  padding: 0;
+  padding-right: 28px;
+  padding-left: 78px;
+  position: relative;
+  list-style: none;
+  display: flex;
+  height: 106px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__item {
+  a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-decoration-line: underline;
+    cursor: pointer;
+    color: white;
+    &:hover {
+      color: red;
+    }
+  }
+}

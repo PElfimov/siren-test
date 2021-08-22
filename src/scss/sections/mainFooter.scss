@@ -1,0 +1,19 @@
+.mainFooter {
+  min-height: 106px;
+  background-color: #0c8543;
+}
+
+.mainFooter__logo {
+  height: 106px;
+  display: flex;
+  align-items: center;
+}
+
+.mainFooter__text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
+}
