@@ -35,8 +35,9 @@
 @include media-breakpoint-down(md) {
   .mainWarranty {
     padding: 0 16px;
-    background-color: transparent;
-    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    margin-top: 0;
   }
 
   .mainWarranty__img {

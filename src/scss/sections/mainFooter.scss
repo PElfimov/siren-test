@@ -9,6 +9,13 @@
   align-items: center;
 }
 
+.mainFooter__textWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 0;
+}
+
 .mainFooter__text {
   font-family: Montserrat;
   font-style: normal;
@@ -16,4 +23,27 @@
   font-size: 12px;
   line-height: 18px;
   color: #ffffff;
+}
+
+@include media-breakpoint-down(md) {
+  .mainFooter__logo {
+    margin-top: 25px;
+    justify-content: center;
+    height: 50px;
+    img {
+      height: 50px;
+      width: 150px;
+    }
+  }
+
+  .mainFooter__textWrapper {
+    justify-content: center;
+  }
+  .mainFooter__text {
+    margin: 34px 0;
+  }
+
+  .mainFooter__textBr {
+    display: none;
+  }
 }
