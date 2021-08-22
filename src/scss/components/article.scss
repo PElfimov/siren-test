@@ -30,18 +30,11 @@
 .article__title {
   padding: 0;
   margin: 0;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 27px;
+  @include textTitle();
   line-height: 36px;
 }
 .article__text {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 26px;
+  @include textParagraph();
   padding: 0;
   margin: 0;
   margin-top: 13px;

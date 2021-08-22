@@ -9,14 +9,9 @@
 }
 
 .mainWarranty__title {
+  @include textTitle();
   margin: 0;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 27px;
-  line-height: 36px;
   margin-top: 10px;
-
   &_green {
     color: #0c8543;
   }
@@ -31,12 +26,8 @@
 }
 
 .mainWarranty__text {
+  @include textParagraph();
   margin: 0;
   margin-top: 15px;
   padding: 0;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 26px;
 }
