@@ -32,7 +32,7 @@
   padding: 0;
 }
 
-@include media-breakpoint-down(md) {
+@include media-breakpoint-down(lg) {
   .mainWarranty {
     padding: 0 16px;
     padding-top: 30px;
@@ -63,5 +63,15 @@
   }
   .mainWarranty__text {
     text-align: center;
+  }
+}
+
+@include media-breakpoint-down(xl) {
+  .mainWarranty__img {
+    margin-top: 25px;
+    img {
+      width: 170px;
+      height: 160px;
+    }
   }
 }

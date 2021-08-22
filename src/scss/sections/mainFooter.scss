@@ -25,7 +25,7 @@
   color: #ffffff;
 }
 
-@include media-breakpoint-down(md) {
+@include media-breakpoint-down(lg) {
   .mainFooter__logo {
     margin-top: 25px;
     justify-content: center;

@@ -52,6 +52,26 @@
   }
 }
 
+@include media-breakpoint-down(xl) {
+  .article {
+    flex-direction: column;
+    padding: 0 16px;
+    margin-bottom: 30px;
+
+    &:nth-of-type(even) {
+      flex-direction: column;
+    }
+
+    &_withIcon::after {
+      right: 25px;
+      top: 240px;
+      width: 200px;
+      height: 72px;
+      background-size: cover;
+    }
+  }
+}
+
 @include media-breakpoint-down(md) {
   .article {
     flex-direction: column;
