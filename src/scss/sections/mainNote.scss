@@ -1,0 +1,14 @@
+.mainNote {
+  &__textWrapper {
+    height: 146px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  p {
+    @include textParagraph();
+    margin: 0;
+    padding: 0;
+  }
+}
