@@ -14,3 +14,19 @@
     font-weight: 700;
   }
 }
+
+@include media-breakpoint-down(md) {
+  .mainHero {
+    padding: 0 16px;
+  }
+  .mainHero__title {
+    margin-top: 25px;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 500;
+
+    &_green {
+      font-size: 22px;
+    }
+  }
+}

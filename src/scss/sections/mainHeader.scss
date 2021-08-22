@@ -1,6 +1,22 @@
+.mainHeader {
+  padding-top: 8px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
 .mainHeader__logo {
   display: flex;
   align-items: center;
   max-width: 168px;
-  height: 96px;
+  height: 95px;
+}
+
+@include media-breakpoint-down(md) {
+  .mainHeader__logo {
+    height: 60px;
+    align-items: flex-start;
+    img {
+      height: 50px;
+      width: 150px;
+    }
+  }
 }

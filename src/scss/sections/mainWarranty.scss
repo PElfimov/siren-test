@@ -31,3 +31,36 @@
   margin-top: 15px;
   padding: 0;
 }
+
+@include media-breakpoint-down(md) {
+  .mainWarranty {
+    padding: 0 16px;
+    background-color: transparent;
+    margin-top: 30px;
+  }
+
+  .mainWarranty__img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: -12px;
+    img {
+      width: 170px;
+      height: 160px;
+    }
+  }
+  .mainWarranty__textWrapper {
+    min-height: 0;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .mainWarranty__title {
+    text-align: center;
+  }
+  .mainWarranty__text {
+    text-align: center;
+  }
+}

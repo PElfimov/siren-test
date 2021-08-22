@@ -38,3 +38,29 @@
   line-height: 27px;
   text-align: center;
 }
+
+@include media-breakpoint-down(md) {
+  .advantageList {
+    margin-top: 25px;
+  }
+  .advantageList__item {
+    max-width: 167px;
+    border-radius: 8px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    min-height: 199px;
+    p {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+
+  .advantageList__img {
+    height: 98px;
+    padding-top: 7px;
+
+    img {
+      height: 53px;
+    }
+  }
+}
